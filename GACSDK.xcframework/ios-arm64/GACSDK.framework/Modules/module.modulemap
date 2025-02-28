@@ -1,0 +1,19 @@
+
+framework module GACSDK {
+  umbrella header "GACSDK.h"
+  
+  export *
+  module * { export * }
+
+  // เชื่อมกับ Alamofire
+  link "Alamofire"
+  link "ObjectivePGP"
+  link "CryptoSwift"
+  link "SVProgressHUD"
+  link "MaterialComponents/TextControls+FilledTextFields"
+  link "MaterialComponents/TextControls+OutlinedTextAreas"
+  link "MaterialComponents/TextControls+OutlinedTextFields"
+  link "MaterialComponents/Tabs+TabBarViewTheming"
+  link "OTPFieldView"
+
+}
