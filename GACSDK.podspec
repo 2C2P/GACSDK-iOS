@@ -15,7 +15,7 @@
   spec.swift_version = '5.0'
   spec.requires_arc = true
   spec.frameworks    = 'UIKit'
-  spec.vendored_frameworks = "GACSDK.xcframework"
+  spec.vendored_frameworks = "XCFrameworks/GACSDK.xcframework"
   spec.dependency 'Alamofire','~> 5.9.1'
   spec.dependency 'ObjectivePGP'
   spec.dependency 'CryptoSwift','~> 1.8'
