@@ -9,9 +9,6 @@
   spec.author       = { 'Tanawat Arthan' => 'tanawat.art@2c2p.com' }
   spec.source       = { :git => 'https://github.com/2C2P/GACSDK-iOS.git', :tag => spec.version }
   spec.ios.deployment_target = '13.0'
-  spec.resource_bundles = {
-     'GACSDKResources' => ['GACSDK/**/*.storyboard', 'GACSDK/**/*.xib', 'GACSDK/**/*.png', 'GACSDK/Resources/**/*']
-  }
   spec.swift_version = '5.0'
   spec.requires_arc = true
   spec.frameworks    = 'UIKit'

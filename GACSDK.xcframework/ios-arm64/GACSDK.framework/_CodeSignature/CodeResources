@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		iuVcOQ4WyER3izsESGFZYlGb6fc=
+		0jgglwEpsvVnfyJQ6YJc0daFg2Q=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>GACSDK.podspec</key>
 		<data>
-		7LBboP1cauCYrs9rRu5sULzBu5s=
+		MyRmLuZSbFLdeVA4nAPc7bv/KiM=
 		</data>
 		<key>Headers/GACSDK.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/GACSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		1dNmE2bedPDFD98ZZ8L4cntfM2g=
+		A4xoC8RyZdx+teUCdL/uKN/PbSk=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -276,7 +276,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xWgYyjaVjQWuvqC7wR6t9CchqgxJQxGTQdH2x37tRBk=
+			D5/vAUx7YK16RJ680yd/NiDMy7HR4CLn/RPKMAepyiU=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -346,7 +346,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r3tf5hnbZdfwSI5ayihkUtQmttxNVQMqiAafcE3gT4E=
+			Jrh7b2uocUZ1Vzu/uLsJQkCp63OyZLoC9JXjs1kKBOE=
 			</data>
 		</dict>
 		<key>Headers/GACSDK.h</key>
@@ -430,7 +430,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nt2nLvd62b+KLwbASug4attBlAJI9bJEKvH3ylJQfxU=
+			jHGdsar2ZRs3a0lrg3QYr65YrnNeql5WNzFoGNpF8DQ=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios.abi.json</key>
