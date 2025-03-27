@@ -41,13 +41,13 @@ GACSDKApp.initialize(with: config)
 ```
 ## Parameters Explanation
 
-setEnvironment("---Environment---"): Specifies the environment (e.g., sandbox or production).\n
-setAuthorizationKey("---KEY_oauth---"): Sets the authorization key for authentication.\n
-setGacAesIV("---KEY_AesIV---"): Sets the AES IV for encryption.\n
-setGacAesKey("---KEY_AesKey---"): Sets the AES key for encryption.\n
-setGacPGPPassword("---KEY_Password---"): Sets the PGP password for decryption.\n
-setGacPGPPublicKey("---KEY_PGPPublic---"): Sets the PGP public key for encryption.\n
-setGacPGPPrivateKey("---KEY_PGPPrivate---"): Sets the PGP private key for decryption.\n
+setEnvironment("---Environment---"): Specifies the environment (e.g., sandbox or production).<br/>
+setAuthorizationKey("---KEY_oauth---"): Sets the authorization key for authentication.<br/>
+setGacAesIV("---KEY_AesIV---"): Sets the AES IV for encryption.<br/>
+setGacAesKey("---KEY_AesKey---"): Sets the AES key for encryption.<br/>
+setGacPGPPassword("---KEY_Password---"): Sets the PGP password for decryption.<br/>
+setGacPGPPublicKey("---KEY_PGPPublic---"): Sets the PGP public key for encryption.<br/>
+setGacPGPPrivateKey("---KEY_PGPPrivate---"): Sets the PGP private key for decryption.<br/>
 
 
 ## Registering a Wallet
