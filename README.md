@@ -9,11 +9,11 @@ This guide provides instructions on how to configure and initialize the GACSDK i
 ## Installation  
 
 To install GACSDK using CocoaPods, add the following to your `Podfile`:  
-
+```ruby
 target 'MyApp' do
   pod 'GACSDK'
 end
-
+```
 Then run:
 
 pod install
@@ -26,7 +26,7 @@ Ensure that GACSDK is added to your project If not, follow the installation inst
 Configuration and Initialization
 
 To configure and initialize the GACSDK, use the following code snippet:
-
+```ruby
 let config = GACSDKConfiguration.Builder()
     .setEnvironment("---Environment---")
     .setAuthorizationKey("---KEY_oauth---")
@@ -38,7 +38,7 @@ let config = GACSDKConfiguration.Builder()
     .build()
 
 GACSDKApp.initialize(with: config)
-
+```
 ## Parameters Explanation
 
 setEnvironment("---Environment---"): Specifies the environment (e.g., sandbox or production).
@@ -53,7 +53,7 @@ setGacPGPPrivateKey("---KEY_PGPPrivate---"): Sets the PGP private key for decryp
 ## Registering a Wallet
 
 To register a wallet using GACSDK, call the registerWallet method:
-
+```ruby
 GACSDKApp().registerWallet { result in
     switch result {
     case .success(let value):
@@ -62,6 +62,7 @@ GACSDKApp().registerWallet { result in
         print("Register Failed: \(error.localizedDescription)")
     }
 }
+```
 
 Handling Result
 
@@ -73,7 +74,7 @@ Failure (.failure(error)): Contains an error description if registration fails.
 ## Registering Liveness
 
 After successfully registering a wallet, you can proceed with liveness registration:
-
+```ruby
 GACSDKApp().registerLiveness(customerImageBase64:String,completion: { result  in
     switch result {
     case .success(let result):
@@ -82,6 +83,7 @@ GACSDKApp().registerLiveness(customerImageBase64:String,completion: { result  in
         print("Liveness Registration Failed: \(error.localizedDescription)")
     }
 }
+```
 
 
 Handling Result
