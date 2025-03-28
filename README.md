@@ -55,12 +55,12 @@ setGacPGPPrivateKey("---KEY_PGPPrivate---"): Sets the PGP private key for decryp
 To register a wallet using GACSDK, call the registerWallet method:
 ```ruby
 GACSDKApp().registerWallet { result in
-    switch result {
-    case .success(let value):
-        print("Register Success: \(value)")
-    case .failure(let error):
-        print("Register Failed: \(error.localizedDescription)")
-    }
+      if let data = result.data(using: .utf8),
+         let json = try? JSONSerialization.jsonObject(with: data, options: []) as?[String: Any]{
+         print("Register Success :  \(json)")
+      } else {
+         print("Invalid response format: \(result)")
+      }
 }
 ```
 
@@ -76,12 +76,12 @@ Failure (.failure(error)): Contains an error description if registration fails.
 After successfully registering a wallet, you can proceed with liveness registration:
 ```ruby
 GACSDKApp().registerLiveness(customerImageBase64:String,completion: { result  in
-    switch result {
-    case .success(let result):
-        print("Liveness Registration Success: \(result)")
-    case .failure(let error):
-        print("Liveness Registration Failed: \(error.localizedDescription)")
-    }
+      if let data = result.data(using: .utf8),
+         let json = try? JSONSerialization.jsonObject(with: data, options: []) as?[String: Any]{
+         print("Register Liveness Success :  \(json)")
+      } else {
+         print("Invalid response format: \(result)")
+      }
 }
 ```
 
