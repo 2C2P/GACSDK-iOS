@@ -69,7 +69,7 @@ extension CoreGraphics.CGColor {
     get
   }
 }
-public class GACSDKApp {
+public class GACSDKAPP {
   public init()
   public static func initialize(with config: GACSDK.GACSDKConfiguration)
   public func registerWallet(completion: @escaping (Swift.String) -> Swift.Void)

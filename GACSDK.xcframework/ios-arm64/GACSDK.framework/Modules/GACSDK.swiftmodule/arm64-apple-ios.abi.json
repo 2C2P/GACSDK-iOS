@@ -1523,6 +1523,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3140,8 +3150,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GACSDKApp",
-        "printedName": "GACSDKApp",
+        "name": "GACSDKAPP",
+        "printedName": "GACSDKAPP",
         "children": [
           {
             "kind": "Constructor",
@@ -3150,14 +3160,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GACSDKApp",
-                "printedName": "GACSDK.GACSDKApp",
-                "usr": "s:6GACSDK9GACSDKAppC"
+                "name": "GACSDKAPP",
+                "printedName": "GACSDK.GACSDKAPP",
+                "usr": "s:6GACSDK9GACSDKAPPC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6GACSDK9GACSDKAppCACycfc",
-            "mangledName": "$s6GACSDK9GACSDKAppCACycfc",
+            "usr": "s:6GACSDK9GACSDKAPPCACycfc",
+            "mangledName": "$s6GACSDK9GACSDKAPPCACycfc",
             "moduleName": "GACSDK",
             "declAttributes": [
               "AccessControl"
@@ -3182,8 +3192,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6GACSDK9GACSDKAppC10initialize4withyAA19GACSDKConfigurationC_tFZ",
-            "mangledName": "$s6GACSDK9GACSDKAppC10initialize4withyAA19GACSDKConfigurationC_tFZ",
+            "usr": "s:6GACSDK9GACSDKAPPC10initialize4withyAA19GACSDKConfigurationC_tFZ",
+            "mangledName": "$s6GACSDK9GACSDKAPPC10initialize4withyAA19GACSDKConfigurationC_tFZ",
             "moduleName": "GACSDK",
             "static": true,
             "declAttributes": [
@@ -3222,8 +3232,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6GACSDK9GACSDKAppC14registerWallet10completionyySSc_tF",
-            "mangledName": "$s6GACSDK9GACSDKAppC14registerWallet10completionyySSc_tF",
+            "usr": "s:6GACSDK9GACSDKAPPC14registerWallet10completionyySSc_tF",
+            "mangledName": "$s6GACSDK9GACSDKAPPC14registerWallet10completionyySSc_tF",
             "moduleName": "GACSDK",
             "declAttributes": [
               "AccessControl"
@@ -3266,8 +3276,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6GACSDK9GACSDKAppC16registerLiveness19customerImageBase6410completionySS_ySSctF",
-            "mangledName": "$s6GACSDK9GACSDKAppC16registerLiveness19customerImageBase6410completionySS_ySSctF",
+            "usr": "s:6GACSDK9GACSDKAPPC16registerLiveness19customerImageBase6410completionySS_ySSctF",
+            "mangledName": "$s6GACSDK9GACSDKAPPC16registerLiveness19customerImageBase6410completionySS_ySSctF",
             "moduleName": "GACSDK",
             "declAttributes": [
               "AccessControl"
@@ -3295,8 +3305,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6GACSDK9GACSDKAppC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
-            "mangledName": "$s6GACSDK9GACSDKAppC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
+            "usr": "s:6GACSDK9GACSDKAPPC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
+            "mangledName": "$s6GACSDK9GACSDKAPPC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
             "moduleName": "GACSDK",
             "static": true,
             "declAttributes": [
@@ -3307,8 +3317,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:6GACSDK9GACSDKAppC",
-        "mangledName": "$s6GACSDK9GACSDKAppC",
+        "usr": "s:6GACSDK9GACSDKAPPC",
+        "mangledName": "$s6GACSDK9GACSDKAPPC",
         "moduleName": "GACSDK",
         "declAttributes": [
           "AccessControl"
@@ -4133,6 +4143,41 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 446,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 627,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 20,
+      "value": "\"Search Nationality\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "Array",
+      "offset": 1203,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "Array",
+      "offset": 1247,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/AlertViewController.swift",
       "kind": "StringLiteral",
       "offset": 396,
@@ -4261,35 +4306,42 @@
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "Array",
-      "offset": 1131,
+      "offset": 1196,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "Array",
-      "offset": 1170,
+      "offset": 1232,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "Array",
-      "offset": 1213,
+      "offset": 1271,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "Array",
-      "offset": 1258,
+      "offset": 1314,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
+      "kind": "Array",
+      "offset": 1359,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1314,
+      "offset": 1415,
       "length": 4,
       "value": "true"
     },

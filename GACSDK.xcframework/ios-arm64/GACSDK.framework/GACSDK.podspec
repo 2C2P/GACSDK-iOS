@@ -13,9 +13,9 @@
   spec.requires_arc = true
   spec.frameworks    = 'UIKit'
   spec.vendored_frameworks = "GACSDK.xcframework"
-  spec.dependency 'Alamofire','~> 5.9.1'
+  spec.dependency 'Alamofire'
   spec.dependency 'ObjectivePGP'
-  spec.dependency 'CryptoSwift','~> 1.8'
+  spec.dependency 'CryptoSwift'
   spec.dependency 'SVProgressHUD'
   spec.dependency 'OTPFieldView'
   spec.dependency 'MaterialComponents'
