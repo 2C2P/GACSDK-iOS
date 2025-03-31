@@ -13,10 +13,31 @@ To install GACSDK using CocoaPods, add the following to your `Podfile`:
 target 'MyApp' do
   pod 'GACSDK'
 end
-```
-Then run:
 
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+    end
+  end
+end
+
+```
+
+In Xcode, go to your project's Build Settings menu. In the Build Options section, set the property ENABLE_USER_SCRIPT_SANDBOXING to 'No'.
+
+## Add Camera Permission in Info.plist
+
+Add NSCameraUsageDescription to specify a message that will be displayed when your app asks for camera access.
+```ruby
+<key>NSCameraUsageDescription</key>
+<string>We need access to your camera to...</string>
+```
+
+Then run:
+```ruby
 pod install
+```
 
 ## Usage
 specifies the minimum supported iOS version of 14.0 in your Podfile section. Let me know if you'd like to make any other changes!
@@ -82,7 +103,7 @@ GACSDKApp().registerLiveness(customerImageBase64:String,completion: { result  in
       } else {
          print("Invalid response format: \(result)")
       }
-}
+})
 ```
 
 

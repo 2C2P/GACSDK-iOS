@@ -1,0 +1,6 @@
+framework module Pods_GACBuildExample {
+  umbrella header "Pods-GACBuildExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
