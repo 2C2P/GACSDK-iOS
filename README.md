@@ -18,6 +18,7 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
       config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+      config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
     end
   end
 end
@@ -58,7 +59,7 @@ let config = GACSDKConfiguration.Builder()
     .setGacPGPPrivateKey("---KEY_PGPPrivate---")
     .build()
 
-GACSDKApp.initialize(with: config)
+GACSDKAPP.initialize(with: config)
 ```
 ## Parameters Explanation
 
@@ -75,13 +76,16 @@ setGacPGPPrivateKey("---KEY_PGPPrivate---"): Sets the PGP private key for decryp
 
 To register a wallet using GACSDK, call the registerWallet method:
 ```ruby
-GACSDKApp().registerWallet { result in
-      if let data = result.data(using: .utf8),
-         let json = try? JSONSerialization.jsonObject(with: data, options: []) as?[String: Any]{
-         print("Register Success :  \(json)")
-      } else {
-         print("Invalid response format: \(result)")
-      }
+GACSDKAPP().registerWallet { result in
+        switch result {
+           case .success(let response):
+                print("Registration Success: \(response)")
+              
+           case .failure(let error):
+                print("Registration Failed: \(error)")
+           default : break
+                
+        }
 }
 ```
 
@@ -96,13 +100,15 @@ Failure (.failure(error)): Contains an error description if registration fails.
 
 After successfully registering a wallet, you can proceed with liveness registration:
 ```ruby
-GACSDKApp().registerLiveness(customerImageBase64:String,completion: { result  in
-      if let data = result.data(using: .utf8),
-         let json = try? JSONSerialization.jsonObject(with: data, options: []) as?[String: Any]{
-         print("Register Liveness Success :  \(json)")
-      } else {
-         print("Invalid response format: \(result)")
-      }
+GACSDKAPP().registerLiveness(customerImageBase64:String,completion: { result  in
+        switch result {
+           case .success(let response):
+                print("Registration Liveness Success: \(response)")
+           case .failure(let error):
+                print("Registration Liveness Failed: \(error)")
+            default : break
+                
+        }
 })
 ```
 

@@ -15,14 +15,15 @@ class ViewController: UIViewController {
 
     @IBAction func touchRegister(_ sender: Any) {
         GACSDKApp().registerWallet { result in
-            if let data = result.data(using: .utf8),
-               let json = try? JSONSerialization.jsonObject(with: data, options: []) as?[String: Any]{
-                self.registerLiveness(customerImageBase64: "Liveness-ImageBase64")
-               print("Register Success :  \(json)")
-            } else {
-               print("Invalid response format: \(result)")
+            switch result {
+               case .success(let response):
+                    print("Register Success : \(response)")
+               case .failure(let error):
+                    print("Register Fail : \(error)")
+               default : break
+                
             }
-           
+          
         }
         
     }
@@ -30,12 +31,16 @@ class ViewController: UIViewController {
     private func registerLiveness(customerImageBase64: String) {
         
         GACSDKApp().registerLiveness(customerImageBase64:customerImageBase64,completion: { result  in
-              if let data = result.data(using: .utf8),
-                 let json = try? JSONSerialization.jsonObject(with: data, options: []) as?[String: Any]{
-                 print("Register Liveness Success :  \(json)")
-              } else {
-                 print("Invalid response format: \(result)")
-              }
+            
+            switch result {
+                case .success(let response):
+                      print("Register Liveness Success : \(response)")
+                case .failure(let error):
+                      print("Register Fail : \(error)")
+                default : break
+                
+            }
+          
         })
         
     }
