@@ -1347,6 +1347,137 @@
         "moduleName": "GACSDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "RegistrationResult",
+        "printedName": "RegistrationResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GACSDK.RegistrationResult.Type) -> (GACSDK.RegisterResponse) -> GACSDK.RegistrationResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GACSDK.RegisterResponse) -> GACSDK.RegistrationResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistrationResult",
+                        "printedName": "GACSDK.RegistrationResult",
+                        "usr": "s:6GACSDK18RegistrationResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegisterResponse",
+                        "printedName": "GACSDK.RegisterResponse",
+                        "usr": "s:6GACSDK16RegisterResponseV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GACSDK.RegistrationResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistrationResult",
+                        "printedName": "GACSDK.RegistrationResult",
+                        "usr": "s:6GACSDK18RegistrationResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6GACSDK18RegistrationResultO7successyAcA16RegisterResponseVcACmF",
+            "mangledName": "$s6GACSDK18RegistrationResultO7successyAcA16RegisterResponseVcACmF",
+            "moduleName": "GACSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GACSDK.RegistrationResult.Type) -> (GACSDK.ErrorResponse) -> GACSDK.RegistrationResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GACSDK.ErrorResponse) -> GACSDK.RegistrationResult",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistrationResult",
+                        "printedName": "GACSDK.RegistrationResult",
+                        "usr": "s:6GACSDK18RegistrationResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorResponse",
+                        "printedName": "GACSDK.ErrorResponse",
+                        "usr": "s:6GACSDK13ErrorResponseV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GACSDK.RegistrationResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RegistrationResult",
+                        "printedName": "GACSDK.RegistrationResult",
+                        "usr": "s:6GACSDK18RegistrationResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6GACSDK18RegistrationResultO7failureyAcA13ErrorResponseVcACmF",
+            "mangledName": "$s6GACSDK18RegistrationResultO7failureyAcA13ErrorResponseVcACmF",
+            "moduleName": "GACSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6GACSDK18RegistrationResultO",
+        "mangledName": "$s6GACSDK18RegistrationResultO",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1450,6 +1581,16 @@
         "printedName": "ObjectivePGP",
         "declKind": "Import",
         "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2825,6 +2966,161 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "BaseResponseProtocol",
+        "printedName": "BaseResponseProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "responseCode",
+            "printedName": "responseCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK20BaseResponseProtocolP12responseCodeSSSgvp",
+            "mangledName": "$s6GACSDK20BaseResponseProtocolP12responseCodeSSSgvp",
+            "moduleName": "GACSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK20BaseResponseProtocolP12responseCodeSSSgvg",
+                "mangledName": "$s6GACSDK20BaseResponseProtocolP12responseCodeSSSgvg",
+                "moduleName": "GACSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GACSDK.BaseResponseProtocol>",
+                "sugared_genericSig": "<Self where Self : GACSDK.BaseResponseProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseDescription",
+            "printedName": "responseDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK20BaseResponseProtocolP19responseDescriptionSSSgvp",
+            "mangledName": "$s6GACSDK20BaseResponseProtocolP19responseDescriptionSSSgvp",
+            "moduleName": "GACSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK20BaseResponseProtocolP19responseDescriptionSSSgvg",
+                "mangledName": "$s6GACSDK20BaseResponseProtocolP19responseDescriptionSSSgvg",
+                "moduleName": "GACSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : GACSDK.BaseResponseProtocol>",
+                "sugared_genericSig": "<Self where Self : GACSDK.BaseResponseProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6GACSDK20BaseResponseProtocolP",
+        "mangledName": "$s6GACSDK20BaseResponseProtocolP",
+        "moduleName": "GACSDK",
+        "genericSig": "<τ_0_0 : Swift.Decodable>",
+        "sugared_genericSig": "<Self : Swift.Decodable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2862,6 +3158,321 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "ErrorResponse",
+        "printedName": "ErrorResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "responseCode",
+            "printedName": "responseCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK13ErrorResponseV12responseCodeSSSgvp",
+            "mangledName": "$s6GACSDK13ErrorResponseV12responseCodeSSSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK13ErrorResponseV12responseCodeSSSgvg",
+                "mangledName": "$s6GACSDK13ErrorResponseV12responseCodeSSSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK13ErrorResponseV12responseCodeSSSgvs",
+                "mangledName": "$s6GACSDK13ErrorResponseV12responseCodeSSSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK13ErrorResponseV12responseCodeSSSgvM",
+                "mangledName": "$s6GACSDK13ErrorResponseV12responseCodeSSSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseDescription",
+            "printedName": "responseDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK13ErrorResponseV19responseDescriptionSSSgvp",
+            "mangledName": "$s6GACSDK13ErrorResponseV19responseDescriptionSSSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK13ErrorResponseV19responseDescriptionSSSgvg",
+                "mangledName": "$s6GACSDK13ErrorResponseV19responseDescriptionSSSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK13ErrorResponseV19responseDescriptionSSSgvs",
+                "mangledName": "$s6GACSDK13ErrorResponseV19responseDescriptionSSSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK13ErrorResponseV19responseDescriptionSSSgvM",
+                "mangledName": "$s6GACSDK13ErrorResponseV19responseDescriptionSSSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorResponse",
+                "printedName": "GACSDK.ErrorResponse",
+                "usr": "s:6GACSDK13ErrorResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6GACSDK13ErrorResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6GACSDK13ErrorResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GACSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GACSDK13ErrorResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6GACSDK13ErrorResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GACSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6GACSDK13ErrorResponseV",
+        "mangledName": "$s6GACSDK13ErrorResponseV",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2879,6 +3490,1219 @@
         "moduleName": "GACSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RegisterResponse",
+        "printedName": "RegisterResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "responseCode",
+            "printedName": "responseCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV12responseCodeSSSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV12responseCodeSSSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV12responseCodeSSSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV12responseCodeSSSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV12responseCodeSSSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV12responseCodeSSSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV12responseCodeSSSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV12responseCodeSSSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseDescription",
+            "printedName": "responseDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV19responseDescriptionSSSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV19responseDescriptionSSSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV19responseDescriptionSSSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV19responseDescriptionSSSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV19responseDescriptionSSSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV19responseDescriptionSSSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV19responseDescriptionSSSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV19responseDescriptionSSSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customerId",
+            "printedName": "customerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV10customerIdSiSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV10customerIdSiSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV10customerIdSiSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV10customerIdSiSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV10customerIdSiSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV10customerIdSiSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV10customerIdSiSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV10customerIdSiSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "walletId",
+            "printedName": "walletId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV8walletIdSSSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV8walletIdSSSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV8walletIdSSSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV8walletIdSSSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV8walletIdSSSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV8walletIdSSSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV8walletIdSSSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV8walletIdSSSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eKycResult",
+            "printedName": "eKycResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV10eKycResultSiSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV10eKycResultSiSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV10eKycResultSiSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV10eKycResultSiSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV10eKycResultSiSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV10eKycResultSiSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV10eKycResultSiSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV10eKycResultSiSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cddResult",
+            "printedName": "cddResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV9cddResultSiSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV9cddResultSiSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV9cddResultSiSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV9cddResultSiSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV9cddResultSiSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV9cddResultSiSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV9cddResultSiSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV9cddResultSiSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dipChipStatus",
+            "printedName": "dipChipStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV13dipChipStatusSiSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV13dipChipStatusSiSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV13dipChipStatusSiSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV13dipChipStatusSiSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV13dipChipStatusSiSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV13dipChipStatusSiSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV13dipChipStatusSiSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV13dipChipStatusSiSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceComparisonActualSimilarity",
+            "printedName": "faceComparisonActualSimilarity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV30faceComparisonActualSimilaritySdSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV30faceComparisonActualSimilaritySdSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV30faceComparisonActualSimilaritySdSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV30faceComparisonActualSimilaritySdSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV30faceComparisonActualSimilaritySdSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV30faceComparisonActualSimilaritySdSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV30faceComparisonActualSimilaritySdSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV30faceComparisonActualSimilaritySdSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceComparisonExpectedSilimilarity",
+            "printedName": "faceComparisonExpectedSilimilarity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV34faceComparisonExpectedSilimilaritySdSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV34faceComparisonExpectedSilimilaritySdSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV34faceComparisonExpectedSilimilaritySdSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV34faceComparisonExpectedSilimilaritySdSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV34faceComparisonExpectedSilimilaritySdSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV34faceComparisonExpectedSilimilaritySdSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV34faceComparisonExpectedSilimilaritySdSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV34faceComparisonExpectedSilimilaritySdSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maskedPan",
+            "printedName": "maskedPan",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK16RegisterResponseV9maskedPanSSSgvp",
+            "mangledName": "$s6GACSDK16RegisterResponseV9maskedPanSSSgvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV9maskedPanSSSgvg",
+                "mangledName": "$s6GACSDK16RegisterResponseV9maskedPanSSSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV9maskedPanSSSgvs",
+                "mangledName": "$s6GACSDK16RegisterResponseV9maskedPanSSSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK16RegisterResponseV9maskedPanSSSgvM",
+                "mangledName": "$s6GACSDK16RegisterResponseV9maskedPanSSSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RegisterResponse",
+                "printedName": "GACSDK.RegisterResponse",
+                "usr": "s:6GACSDK16RegisterResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6GACSDK16RegisterResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6GACSDK16RegisterResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "GACSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GACSDK16RegisterResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6GACSDK16RegisterResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "GACSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6GACSDK16RegisterResponseV",
+        "mangledName": "$s6GACSDK16RegisterResponseV",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BaseResponseProtocol",
+            "printedName": "BaseResponseProtocol",
+            "usr": "s:6GACSDK20BaseResponseProtocolP",
+            "mangledName": "$s6GACSDK20BaseResponseProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -3140,8 +4964,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "GACSDKApp",
-        "printedName": "GACSDKApp",
+        "name": "GACSDKAPP",
+        "printedName": "GACSDKAPP",
         "children": [
           {
             "kind": "Constructor",
@@ -3150,14 +4974,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GACSDKApp",
-                "printedName": "GACSDK.GACSDKApp",
-                "usr": "s:6GACSDK9GACSDKAppC"
+                "name": "GACSDKAPP",
+                "printedName": "GACSDK.GACSDKAPP",
+                "usr": "s:6GACSDK9GACSDKAPPC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6GACSDK9GACSDKAppCACycfc",
-            "mangledName": "$s6GACSDK9GACSDKAppCACycfc",
+            "usr": "s:6GACSDK9GACSDKAPPCACycfc",
+            "mangledName": "$s6GACSDK9GACSDKAPPCACycfc",
             "moduleName": "GACSDK",
             "declAttributes": [
               "AccessControl"
@@ -3182,8 +5006,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6GACSDK9GACSDKAppC10initialize4withyAA19GACSDKConfigurationC_tFZ",
-            "mangledName": "$s6GACSDK9GACSDKAppC10initialize4withyAA19GACSDKConfigurationC_tFZ",
+            "usr": "s:6GACSDK9GACSDKAPPC10initialize4withyAA19GACSDKConfigurationC_tFZ",
+            "mangledName": "$s6GACSDK9GACSDKAPPC10initialize4withyAA19GACSDKConfigurationC_tFZ",
             "moduleName": "GACSDK",
             "static": true,
             "declAttributes": [
@@ -3205,7 +5029,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String) -> ()",
+                "printedName": "(GACSDK.RegistrationResult) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3214,16 +5038,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "RegistrationResult",
+                    "printedName": "GACSDK.RegistrationResult",
+                    "usr": "s:6GACSDK18RegistrationResultO"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:6GACSDK9GACSDKAppC14registerWallet10completionyySSc_tF",
-            "mangledName": "$s6GACSDK9GACSDKAppC14registerWallet10completionyySSc_tF",
+            "usr": "s:6GACSDK9GACSDKAPPC14registerWallet10completionyyAA18RegistrationResultOc_tF",
+            "mangledName": "$s6GACSDK9GACSDKAPPC14registerWallet10completionyyAA18RegistrationResultOc_tF",
             "moduleName": "GACSDK",
             "declAttributes": [
               "AccessControl"
@@ -3249,7 +5073,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String) -> ()",
+                "printedName": "(GACSDK.RegistrationResult) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3258,16 +5082,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "RegistrationResult",
+                    "printedName": "GACSDK.RegistrationResult",
+                    "usr": "s:6GACSDK18RegistrationResultO"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:6GACSDK9GACSDKAppC16registerLiveness19customerImageBase6410completionySS_ySSctF",
-            "mangledName": "$s6GACSDK9GACSDKAppC16registerLiveness19customerImageBase6410completionySS_ySSctF",
+            "usr": "s:6GACSDK9GACSDKAPPC16registerLiveness19customerImageBase6410completionySS_yAA18RegistrationResultOctF",
+            "mangledName": "$s6GACSDK9GACSDKAPPC16registerLiveness19customerImageBase6410completionySS_yAA18RegistrationResultOctF",
             "moduleName": "GACSDK",
             "declAttributes": [
               "AccessControl"
@@ -3295,8 +5119,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6GACSDK9GACSDKAppC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
-            "mangledName": "$s6GACSDK9GACSDKAppC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
+            "usr": "s:6GACSDK9GACSDKAPPC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
+            "mangledName": "$s6GACSDK9GACSDKAPPC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
             "moduleName": "GACSDK",
             "static": true,
             "declAttributes": [
@@ -3307,8 +5131,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:6GACSDK9GACSDKAppC",
-        "mangledName": "$s6GACSDK9GACSDKAppC",
+        "usr": "s:6GACSDK9GACSDKAPPC",
+        "mangledName": "$s6GACSDK9GACSDKAPPC",
         "moduleName": "GACSDK",
         "declAttributes": [
           "AccessControl"
@@ -4133,6 +5957,41 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 446,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 627,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 20,
+      "value": "\"Search Nationality\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "Array",
+      "offset": 1203,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfNationality\/BottomSheetOfNationalityViewController.swift",
+      "kind": "Array",
+      "offset": 1247,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/AlertViewController.swift",
       "kind": "StringLiteral",
       "offset": 396,
@@ -4261,35 +6120,42 @@
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "Array",
-      "offset": 1131,
+      "offset": 1196,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "Array",
-      "offset": 1170,
+      "offset": 1232,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "Array",
-      "offset": 1213,
+      "offset": 1271,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "Array",
-      "offset": 1258,
+      "offset": 1314,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
+      "kind": "Array",
+      "offset": 1359,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1314,
+      "offset": 1415,
       "length": 4,
       "value": "true"
     },

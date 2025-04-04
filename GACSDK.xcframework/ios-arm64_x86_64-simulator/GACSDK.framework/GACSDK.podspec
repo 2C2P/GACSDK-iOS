@@ -1,7 +1,7 @@
 
   Pod::Spec.new do |spec|
   spec.name         = 'GACSDK'
-  spec.version      = '1.0.0'
+  spec.version      = '1.0.1'
   spec.summary      = 'A description of GACSDK.'
   spec.description  = 'The SDK build for easy to use from GAC 2c2p.'
   spec.homepage     = 'https://github.com/2C2P/GACSDK-iOS'
@@ -13,9 +13,9 @@
   spec.requires_arc = true
   spec.frameworks    = 'UIKit'
   spec.vendored_frameworks = "GACSDK.xcframework"
-  spec.dependency 'Alamofire','~> 5.9.1'
+  spec.dependency 'Alamofire'
   spec.dependency 'ObjectivePGP'
-  spec.dependency 'CryptoSwift','~> 1.8'
+  spec.dependency 'CryptoSwift'
   spec.dependency 'SVProgressHUD'
   spec.dependency 'OTPFieldView'
   spec.dependency 'MaterialComponents'
