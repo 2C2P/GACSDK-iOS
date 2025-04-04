@@ -1,0 +1,4948 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "GACSDK",
+    "printedName": "GACSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Environment",
+        "printedName": "Environment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sandbox",
+            "printedName": "sandbox",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GACSDK.Environment.Type) -> GACSDK.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "GACSDK.Environment",
+                    "usr": "s:6GACSDK11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GACSDK.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "GACSDK.Environment",
+                        "usr": "s:6GACSDK11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6GACSDK11EnvironmentO7sandboxyA2CmF",
+            "mangledName": "$s6GACSDK11EnvironmentO7sandboxyA2CmF",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(GACSDK.Environment.Type) -> GACSDK.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "GACSDK.Environment",
+                    "usr": "s:6GACSDK11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GACSDK.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "GACSDK.Environment",
+                        "usr": "s:6GACSDK11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6GACSDK11EnvironmentO10productionyA2CmF",
+            "mangledName": "$s6GACSDK11EnvironmentO10productionyA2CmF",
+            "moduleName": "GACSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "GACSDK.Environment",
+                "usr": "s:6GACSDK11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "GACSDK.Environment",
+                "usr": "s:6GACSDK11EnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GACSDK11EnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6GACSDK11EnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "GACSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK11EnvironmentO9hashValueSivp",
+            "mangledName": "$s6GACSDK11EnvironmentO9hashValueSivp",
+            "moduleName": "GACSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK11EnvironmentO9hashValueSivg",
+                "mangledName": "$s6GACSDK11EnvironmentO9hashValueSivg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GACSDK11EnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6GACSDK11EnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "GACSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6GACSDK11EnvironmentO",
+        "mangledName": "$s6GACSDK11EnvironmentO",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GACSDKConfiguration",
+        "printedName": "GACSDKConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "GACSDK.Environment",
+                "usr": "s:6GACSDK11EnvironmentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK19GACSDKConfigurationC11environmentAA11EnvironmentOvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC11environmentAA11EnvironmentOvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "GACSDK.Environment",
+                    "usr": "s:6GACSDK11EnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC11environmentAA11EnvironmentOvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC11environmentAA11EnvironmentOvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "GACSDK.Environment",
+                    "usr": "s:6GACSDK11EnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC11environmentAA11EnvironmentOvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC11environmentAA11EnvironmentOvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC11environmentAA11EnvironmentOvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC11environmentAA11EnvironmentOvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authorizationKey",
+            "printedName": "authorizationKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK19GACSDKConfigurationC16authorizationKeySSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC16authorizationKeySSvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC16authorizationKeySSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC16authorizationKeySSvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC16authorizationKeySSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC16authorizationKeySSvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC16authorizationKeySSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC16authorizationKeySSvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gacAesKey",
+            "printedName": "gacAesKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK19GACSDKConfigurationC9gacAesKeySSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC9gacAesKeySSvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC9gacAesKeySSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC9gacAesKeySSvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC9gacAesKeySSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC9gacAesKeySSvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC9gacAesKeySSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC9gacAesKeySSvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gacAesIV",
+            "printedName": "gacAesIV",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK19GACSDKConfigurationC8gacAesIVSSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC8gacAesIVSSvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC8gacAesIVSSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC8gacAesIVSSvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC8gacAesIVSSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC8gacAesIVSSvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC8gacAesIVSSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC8gacAesIVSSvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gacPGPPassword",
+            "printedName": "gacPGPPassword",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gacPGPPublicKey",
+            "printedName": "gacPGPPublicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gacPGPPrivateKey",
+            "printedName": "gacPGPPrivateKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvp",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(environment:authorizationKey:gacAesKey:gacAesIV:gacPGPPassword:gacPGPPublicKey:gacPGPPrivateKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GACSDKConfiguration",
+                "printedName": "GACSDK.GACSDKConfiguration",
+                "usr": "s:6GACSDK19GACSDKConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "GACSDK.Environment",
+                "usr": "s:6GACSDK11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6GACSDK19GACSDKConfigurationC11environment16authorizationKey06gacAesE00fG2IV0F11PGPPassword0f9PGPPublicE00f10PGPPrivateE0AcA11EnvironmentO_S6Stcfc",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC11environment16authorizationKey06gacAesE00fG2IV0F11PGPPassword0f9PGPPublicE00f10PGPPrivateE0AcA11EnvironmentO_S6Stcfc",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "GACSDK.GACSDKConfiguration.Builder",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderCAEycfc",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderCAEycfc",
+                "moduleName": "GACSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "setEnvironment",
+                "printedName": "setEnvironment(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "GACSDK.GACSDKConfiguration.Builder",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "GACSDK.Environment",
+                    "usr": "s:6GACSDK11EnvironmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC14setEnvironmentyAeA0E0OF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC14setEnvironmentyAeA0E0OF",
+                "moduleName": "GACSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setAuthorizationKey",
+                "printedName": "setAuthorizationKey(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "GACSDK.GACSDKConfiguration.Builder",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC19setAuthorizationKeyyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC19setAuthorizationKeyyAESSF",
+                "moduleName": "GACSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setGacAesKey",
+                "printedName": "setGacAesKey(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "GACSDK.GACSDKConfiguration.Builder",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC12setGacAesKeyyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC12setGacAesKeyyAESSF",
+                "moduleName": "GACSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setGacAesIV",
+                "printedName": "setGacAesIV(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "GACSDK.GACSDKConfiguration.Builder",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC11setGacAesIVyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC11setGacAesIVyAESSF",
+                "moduleName": "GACSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setGacPGPPassword",
+                "printedName": "setGacPGPPassword(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "GACSDK.GACSDKConfiguration.Builder",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC17setGacPGPPasswordyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC17setGacPGPPasswordyAESSF",
+                "moduleName": "GACSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setGacPGPPublicKey",
+                "printedName": "setGacPGPPublicKey(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "GACSDK.GACSDKConfiguration.Builder",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC18setGacPGPPublicKeyyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC18setGacPGPPublicKeyyAESSF",
+                "moduleName": "GACSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "setGacPGPPrivateKey",
+                "printedName": "setGacPGPPrivateKey(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "GACSDK.GACSDKConfiguration.Builder",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC19setGacPGPPrivateKeyyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC19setGacPGPPrivateKeyyAESSF",
+                "moduleName": "GACSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GACSDKConfiguration",
+                    "printedName": "GACSDK.GACSDKConfiguration",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC5buildACyF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC5buildACyF",
+                "moduleName": "GACSDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6GACSDK19GACSDKConfigurationC",
+        "mangledName": "$s6GACSDK19GACSDKConfigurationC",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SVProgressHUD",
+        "printedName": "SVProgressHUD",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MaterialComponents.MaterialTextControls_FilledTextAreas",
+        "printedName": "MaterialComponents.MaterialTextControls_FilledTextAreas",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MaterialComponents.MaterialTextControls_FilledTextFields",
+        "printedName": "MaterialComponents.MaterialTextControls_FilledTextFields",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MaterialComponents.MaterialTextControls_OutlinedTextAreas",
+        "printedName": "MaterialComponents.MaterialTextControls_OutlinedTextAreas",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MaterialComponents.MaterialTextControls_OutlinedTextFields",
+        "printedName": "MaterialComponents.MaterialTextControls_OutlinedTextFields",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SVProgressHUD",
+        "printedName": "SVProgressHUD",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectivePGP",
+        "printedName": "ObjectivePGP",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatePickerDialogCustom",
+        "printedName": "DatePickerDialogCustom",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "datePicker",
+            "printedName": "datePicker",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIDatePicker?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDatePicker",
+                    "printedName": "UIKit.UIDatePicker",
+                    "usr": "c:objc(cs)UIDatePicker"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6GACSDK22DatePickerDialogCustomC04dateC0So06UIDateC0CSgvp",
+            "mangledName": "$s6GACSDK22DatePickerDialogCustomC04dateC0So06UIDateC0CSgvp",
+            "moduleName": "GACSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIDatePicker?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDatePicker",
+                        "printedName": "UIKit.UIDatePicker",
+                        "usr": "c:objc(cs)UIDatePicker"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK22DatePickerDialogCustomC04dateC0So06UIDateC0CSgvg",
+                "mangledName": "$s6GACSDK22DatePickerDialogCustomC04dateC0So06UIDateC0CSgvg",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIDatePicker?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDatePicker",
+                        "printedName": "UIKit.UIDatePicker",
+                        "usr": "c:objc(cs)UIDatePicker"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK22DatePickerDialogCustomC04dateC0So06UIDateC0CSgvs",
+                "mangledName": "$s6GACSDK22DatePickerDialogCustomC04dateC0So06UIDateC0CSgvs",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6GACSDK22DatePickerDialogCustomC04dateC0So06UIDateC0CSgvM",
+                "mangledName": "$s6GACSDK22DatePickerDialogCustomC04dateC0So06UIDateC0CSgvM",
+                "moduleName": "GACSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(textColor:buttonColor:font:showCancelButton:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatePickerDialogCustom",
+                "printedName": "GACSDK.DatePickerDialogCustom",
+                "usr": "c:@M@GACSDK@objc(cs)DatePickerDialogCustom"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GACSDK@objc(cs)DatePickerDialogCustom(im)initWithTextColor:buttonColor:font:showCancelButton:",
+            "mangledName": "$s6GACSDK22DatePickerDialogCustomC9textColor06buttonG04font16showCancelButtonACSo7UIColorC_AISo6UIFontCSbtcfc",
+            "moduleName": "GACSDK",
+            "objc_name": "initWithTextColor:buttonColor:font:showCancelButton:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(_:doneButtonTitle:cancelButtonTitle:defaultDate:minimumDate:maximumDate:datePickerMode:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Mode",
+                "printedName": "UIKit.UIDatePicker.Mode",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIDatePickerMode"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.Date?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GACSDK22DatePickerDialogCustomC4show_15doneButtonTitle06cancelhI007defaultB007minimumB007maximumB004dateC4Mode8callbackySS_S2S10Foundation0B0VANSgAOSo06UIDatecO0VyAOctF",
+            "mangledName": "$s6GACSDK22DatePickerDialogCustomC4show_15doneButtonTitle06cancelhI007defaultB007minimumB007maximumB004dateC4Mode8callbackySS_S2S10Foundation0B0VANSgAOSo06UIDatecO0VyAOctF",
+            "moduleName": "GACSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatePickerDialogCustom",
+                "printedName": "GACSDK.DatePickerDialogCustom",
+                "usr": "c:@M@GACSDK@objc(cs)DatePickerDialogCustom"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@GACSDK@objc(cs)DatePickerDialogCustom(im)initWithFrame:",
+            "mangledName": "$s6GACSDK22DatePickerDialogCustomC5frameACSo6CGRectV_tcfc",
+            "moduleName": "GACSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@GACSDK@objc(cs)DatePickerDialogCustom",
+        "mangledName": "$s6GACSDK22DatePickerDialogCustomC",
+        "moduleName": "GACSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SVProgressHUD",
+        "printedName": "SVProgressHUD",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MaterialComponents",
+        "printedName": "MaterialComponents",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OTPFieldView",
+        "printedName": "OTPFieldView",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GACSDKApp",
+        "printedName": "GACSDKApp",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GACSDKApp",
+                "printedName": "GACSDK.GACSDKApp",
+                "usr": "s:6GACSDK9GACSDKAppC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6GACSDK9GACSDKAppCACycfc",
+            "mangledName": "$s6GACSDK9GACSDKAppCACycfc",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GACSDKConfiguration",
+                "printedName": "GACSDK.GACSDKConfiguration",
+                "usr": "s:6GACSDK19GACSDKConfigurationC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GACSDK9GACSDKAppC10initialize4withyAA19GACSDKConfigurationC_tFZ",
+            "mangledName": "$s6GACSDK9GACSDKAppC10initialize4withyAA19GACSDKConfigurationC_tFZ",
+            "moduleName": "GACSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerWallet",
+            "printedName": "registerWallet(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GACSDK9GACSDKAppC14registerWallet10completionyySSc_tF",
+            "mangledName": "$s6GACSDK9GACSDKAppC14registerWallet10completionyySSc_tF",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerLiveness",
+            "printedName": "registerLiveness(customerImageBase64:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GACSDK9GACSDKAppC16registerLiveness19customerImageBase6410completionySS_ySSctF",
+            "mangledName": "$s6GACSDK9GACSDKAppC16registerLiveness19customerImageBase6410completionySS_ySSctF",
+            "moduleName": "GACSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConfiguration",
+            "printedName": "getConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GACSDK.GACSDKConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GACSDKConfiguration",
+                    "printedName": "GACSDK.GACSDKConfiguration",
+                    "usr": "s:6GACSDK19GACSDKConfigurationC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6GACSDK9GACSDKAppC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
+            "mangledName": "$s6GACSDK9GACSDKAppC16getConfigurationAA19GACSDKConfigurationCSgyFZ",
+            "moduleName": "GACSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6GACSDK9GACSDKAppC",
+        "mangledName": "$s6GACSDK9GACSDKAppC",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectivePGP",
+        "printedName": "ObjectivePGP",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "GACSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CGColor",
+        "printedName": "CGColor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "gradientWhite",
+            "printedName": "gradientWhite",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreGraphics.CGColor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGColor",
+                    "printedName": "CoreGraphics.CGColor",
+                    "usr": "c:@T@CGColorRef"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So10CGColorRefa6GACSDKE13gradientWhiteSayABGvpZ",
+            "mangledName": "$sSo10CGColorRefa6GACSDKE13gradientWhiteSayABGvpZ",
+            "moduleName": "GACSDK",
+            "static": true,
+            "declAttributes": [
+              "NonObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CoreGraphics.CGColor]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGColor",
+                        "printedName": "CoreGraphics.CGColor",
+                        "usr": "c:@T@CGColorRef"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So10CGColorRefa6GACSDKE13gradientWhiteSayABGvgZ",
+                "mangledName": "$sSo10CGColorRefa6GACSDKE13gradientWhiteSayABGvgZ",
+                "moduleName": "GACSDK",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@T@CGColorRef",
+        "moduleName": "CoreGraphics",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CFObject",
+            "printedName": "_CFObject",
+            "usr": "s:14CoreFoundation9_CFObjectP",
+            "mangledName": "$s14CoreFoundation9_CFObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CGColorInitTrampoline",
+            "printedName": "_CGColorInitTrampoline",
+            "usr": "s:12CoreGraphics22_CGColorInitTrampolineP",
+            "mangledName": "$s12CoreGraphics22_CGColorInitTrampolineP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 178,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 8,
+      "value": "\"Unkown\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 409,
+      "length": 6,
+      "value": "\"v2.3\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1114,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1162,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1211,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1261,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/BaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 777,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/BaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3348,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/BaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3398,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/BaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3409,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/BaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3445,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/BaseViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3999,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/BaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4049,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/BaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4060,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/BaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4096,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 5,
+      "value": "\"A01\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 5,
+      "value": "\"A02\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 5,
+      "value": "\"U01\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 5,
+      "value": "\"U03\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 5,
+      "value": "\"U04\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 5,
+      "value": "\"U09\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 5,
+      "value": "\"U02\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 499,
+      "length": 5,
+      "value": "\"U07\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 5,
+      "value": "\"U41\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Constants\/ResponseCode.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 5,
+      "value": "\"U39\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/CustomComponents\/CustomButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1084,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/CustomComponents\/CustomButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1217,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/CustomComponents\/CustomPasscodeView.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/CustomComponents\/CustomPasscodeView.swift",
+      "kind": "Array",
+      "offset": 450,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/CustomComponents\/CustomPasscodeView.swift",
+      "kind": "Array",
+      "offset": 545,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/CustomComponents\/CustomPasscodeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 687,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/CustomComponents\/CustomTextField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4145,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/CustomComponents\/CustomTextField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4167,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 181,
+      "length": 9,
+      "value": "\"Consent\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 7,
+      "value": "\"Alert\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 10,
+      "value": "\"Register\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 16,
+      "value": "\"InstructionOCR\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 8,
+      "value": "\"Selfie\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 21,
+      "value": "\"PersonalInformation\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 11,
+      "value": "\"VerifyOTP\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 12,
+      "value": "\"TabAddress\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 13,
+      "value": "\"HomeAddress\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 9,
+      "value": "\"Mailing\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 11,
+      "value": "\"Workplace\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 10,
+      "value": "\"Passcode\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 17,
+      "value": "\"PasscodeConfirm\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Enums\/StoryboardName.swift",
+      "kind": "StringLiteral",
+      "offset": 635,
+      "length": 12,
+      "value": "\"OCRPreview\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Extensions\/NotificationCenterExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 23,
+      "value": "\"registrationCompleted\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Extensions\/NotificationCenterExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 27,
+      "value": "\"registrationInfoCompleted\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Managers\/PGPManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3136,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheet\/BottomSheetPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 337,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheet\/BottomSheetPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 533,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheet\/BottomSheetPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 569,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheet\/BottomSheetPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheet\/BottomSheetViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheet\/BottomSheetViewController.swift",
+      "kind": "Array",
+      "offset": 540,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfCountry\/BottomSheetOfCountryViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfCountry\/BottomSheetOfCountryViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 637,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfCountry\/BottomSheetOfCountryViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 713,
+      "length": 16,
+      "value": "\"Search Country\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfCountry\/BottomSheetOfCountryViewController.swift",
+      "kind": "Array",
+      "offset": 1205,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfCountry\/BottomSheetOfCountryViewController.swift",
+      "kind": "Array",
+      "offset": 1245,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 354,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 550,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 586,
+      "length": 3,
+      "value": "1.7"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogPresentationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 486,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 717,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 751,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 12,
+      "value": "\"Scan Agian\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1105,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1145,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1179,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1240,
+      "length": 2,
+      "value": "55"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1255,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1458,
+      "length": 19,
+      "value": "\"Submit for review\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1924,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1984,
+      "length": 2,
+      "value": "55"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/BottomSheetOfDialog\/BottomSheetOfDialogViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1999,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/AlertViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/CustomAlertDialog.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/DatePickerDialogCustom.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/DatePickerDialogCustom.swift",
+      "kind": "IntegerLiteral",
+      "offset": 586,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/DatePickerDialogCustom.swift",
+      "kind": "IntegerLiteral",
+      "offset": 629,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/DatePickerDialogCustom.swift",
+      "kind": "IntegerLiteral",
+      "offset": 669,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/DatePickerDialogCustom.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1450,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/DatePickerDialogCustom.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1488,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/DatePickerDialogCustom.swift",
+      "kind": "StringLiteral",
+      "offset": 2733,
+      "length": 6,
+      "value": "\"Done\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Alert\/DatePickerDialogCustom.swift",
+      "kind": "StringLiteral",
+      "offset": 2777,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Consent\/ConsentViewController.swift",
+      "kind": "Array",
+      "offset": 721,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Consent\/ConsentViewController.swift",
+      "kind": "Array",
+      "offset": 757,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Consent\/ConsentViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 814,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/Consent\/ConsentViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 841,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/InstructionOCR\/InstructionOCRViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 495,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/InstructionOCR\/InstructionOCRViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 528,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/OCRPreview\/OCRPreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 439,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/OCRPreview\/OCRPreviewViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 470,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
+      "kind": "Array",
+      "offset": 1131,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
+      "kind": "Array",
+      "offset": 1170,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
+      "kind": "Array",
+      "offset": 1213,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
+      "kind": "Array",
+      "offset": 1258,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/PersonalInformation\/PersonalInformationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1314,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/RegisterByEmail\/RegisterByEmailViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/RegisterByEmail\/RegisterByEmailViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/RegisterByEmail\/RegisterByEmailViewModel.swift",
+      "kind": "Array",
+      "offset": 365,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Address\/AddressViewController.swift",
+      "kind": "Array",
+      "offset": 783,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Address\/AddressViewController.swift",
+      "kind": "Array",
+      "offset": 820,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Address\/AddressViewController.swift",
+      "kind": "Array",
+      "offset": 857,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Address\/AddressViewController.swift",
+      "kind": "Array",
+      "offset": 900,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Address\/AddressViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 930,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Mailing\/MailingViewController.swift",
+      "kind": "Array",
+      "offset": 1004,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Mailing\/MailingViewController.swift",
+      "kind": "Array",
+      "offset": 1041,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Mailing\/MailingViewController.swift",
+      "kind": "Array",
+      "offset": 1078,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Mailing\/MailingViewController.swift",
+      "kind": "Array",
+      "offset": 1121,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Mailing\/MailingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1150,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Mailing\/MailingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1183,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Workplace\/WorkplaceViewController.swift",
+      "kind": "Array",
+      "offset": 904,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Workplace\/WorkplaceViewController.swift",
+      "kind": "Array",
+      "offset": 941,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Workplace\/WorkplaceViewController.swift",
+      "kind": "Array",
+      "offset": 978,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Workplace\/WorkplaceViewController.swift",
+      "kind": "Array",
+      "offset": 1021,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Workplace\/WorkplaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1095,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Workplace\/WorkplaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1134,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Modules\/TabAddress\/Workplace\/WorkplaceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1279,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/OAuth\/OAuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 14,
+      "value": "\"access_token\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/OAuth\/OAuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 12,
+      "value": "\"expires_in\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/OAuth\/OAuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
+      "length": 12,
+      "value": "\"token_type\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/OAuth\/OAuthResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/Requests\/ConsentListRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 4,
+      "value": "\"EN\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/Requests\/RegisterRequest.swift",
+      "kind": "Array",
+      "offset": 3094,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/Requests\/RegisterRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3136,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/Routers\/RequestRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 302,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/RestController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3934,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Networking\/RestController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3966,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ColorNames.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 11,
+      "value": "\"myPrimary\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ColorNames.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 9,
+      "value": "\"myBlack\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ColorNames.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 9,
+      "value": "\"myWhite\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ColorNames.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 8,
+      "value": "\"myGray\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ColorNames.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 12,
+      "value": "\"myDarkGray\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ColorNames.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 12,
+      "value": "\"trans_gray\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ColorNames.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 14,
+      "value": "\"lightGray100\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ColorNames.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 9,
+      "value": "\"myGreen\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ColorNames.swift",
+      "kind": "StringLiteral",
+      "offset": 460,
+      "length": 11,
+      "value": "\"yellow100\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 21,
+      "value": "\"ic_arrow_back_white\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 14,
+      "value": "\"check_active\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 17,
+      "value": "\"ic_radio_active\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 19,
+      "value": "\"ic_radio_inactive\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 18,
+      "value": "\"img_thai_id_card\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 14,
+      "value": "\"img_passport\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 17,
+      "value": "\"icon_green_tick\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 12,
+      "value": "\"img_selfie\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 15,
+      "value": "\"ic_arrow_down\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 563,
+      "length": 9,
+      "value": "\"ic_date\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 17,
+      "value": "\"check_in_active\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 9,
+      "value": "\"ic_back\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 9,
+      "value": "\"ic_next\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 706,
+      "length": 16,
+      "value": "\"img_front_card\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 15,
+      "value": "\"img_back_card\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 794,
+      "length": 20,
+      "value": "\"img_passport_guide\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 12,
+      "value": "\"ic_protect\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Resources\/ImageNames.swift",
+      "kind": "StringLiteral",
+      "offset": 872,
+      "length": 10,
+      "value": "\"ic_close\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Utils\/CameraUtil.swift",
+      "kind": "FloatLiteral",
+      "offset": 602,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Utils\/CameraUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 748,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Utils\/CameraUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 826,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Utils\/CameraUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9677,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Utils\/CameraUtil.swift",
+      "kind": "FloatLiteral",
+      "offset": 9684,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 632,
+      "length": 14,
+      "value": "\"lightGray100\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 9,
+      "value": "\"myBlack\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 12,
+      "value": "\"myDarkGray\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1043,
+      "length": 8,
+      "value": "\"myGray\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 9,
+      "value": "\"myGreen\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 11,
+      "value": "\"myPrimary\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1447,
+      "length": 9,
+      "value": "\"myWhite\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1585,
+      "length": 12,
+      "value": "\"trans_gray\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 11,
+      "value": "\"yellow100\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1974,
+      "length": 14,
+      "value": "\"check_active\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2126,
+      "length": 17,
+      "value": "\"check_in_active\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2288,
+      "length": 21,
+      "value": "\"ic_arrow_back_white\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2443,
+      "length": 15,
+      "value": "\"ic_arrow_down\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2581,
+      "length": 9,
+      "value": "\"ic_back\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2715,
+      "length": 10,
+      "value": "\"ic_close\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2848,
+      "length": 9,
+      "value": "\"ic_date\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2980,
+      "length": 9,
+      "value": "\"ic_next\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3118,
+      "length": 12,
+      "value": "\"ic_protect\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3268,
+      "length": 17,
+      "value": "\"ic_radio_active\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3427,
+      "length": 19,
+      "value": "\"ic_radio_inactive\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3580,
+      "length": 15,
+      "value": "\"ic_take_photo\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3733,
+      "length": 17,
+      "value": "\"icon_green_tick\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3884,
+      "length": 15,
+      "value": "\"img_back_card\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4047,
+      "length": 22,
+      "value": "\"img_background_photo\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4205,
+      "length": 16,
+      "value": "\"img_front_card\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4354,
+      "length": 14,
+      "value": "\"img_passport\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4512,
+      "length": 20,
+      "value": "\"img_passport_guide\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4661,
+      "length": 12,
+      "value": "\"img_selfie\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4812,
+      "length": 18,
+      "value": "\"img_thai_id_card\""
+    },
+    {
+      "filePath": "\/Users\/tanawat.art\/Library\/Developer\/Xcode\/DerivedData\/GACSDK-bsccutzgnutnvicjrnsnhhxvhrut\/Build\/Intermediates.noindex\/GACSDK.build\/Release-iphoneos\/GACSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4958,
+      "length": 11,
+      "value": "\"instagram\""
+    }
+  ]
+}

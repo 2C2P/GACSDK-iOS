@@ -55,6 +55,10 @@ public class GACSDKConfiguration {
   }
   @objc deinit
 }
+public enum RegistrationResult {
+  case success(GACSDK.RegisterResponse)
+  case failure(GACSDK.ErrorResponse)
+}
 @objc @_Concurrency.MainActor @preconcurrency open class DatePickerDialogCustom : UIKit.UIView {
   public typealias DatePickerCallback = (Foundation.Date?) -> Swift.Void
   @_Concurrency.MainActor @preconcurrency open var datePicker: UIKit.UIDatePicker!
@@ -64,16 +68,40 @@ public class GACSDKConfiguration {
   @_Concurrency.MainActor @preconcurrency open func show(_ title: Swift.String, doneButtonTitle: Swift.String = "Done", cancelButtonTitle: Swift.String = "Cancel", defaultDate: Foundation.Date = Date(), minimumDate: Foundation.Date? = nil, maximumDate: Foundation.Date? = nil, datePickerMode: UIKit.UIDatePicker.Mode = .dateAndTime, callback: @escaping GACSDK.DatePickerDialogCustom.DatePickerCallback)
   @objc deinit
 }
+public protocol BaseResponseProtocol : Swift.Decodable {
+  var responseCode: Swift.String? { get }
+  var responseDescription: Swift.String? { get }
+}
+public struct ErrorResponse : Swift.Codable {
+  public var responseCode: Swift.String?
+  public var responseDescription: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RegisterResponse : GACSDK.BaseResponseProtocol, Swift.Codable {
+  public var responseCode: Swift.String?
+  public var responseDescription: Swift.String?
+  public var customerId: Swift.Int?
+  public var walletId: Swift.String?
+  public var eKycResult: Swift.Int?
+  public var cddResult: Swift.Int?
+  public var dipChipStatus: Swift.Int?
+  public var faceComparisonActualSimilarity: Swift.Double?
+  public var faceComparisonExpectedSilimilarity: Swift.Double?
+  public var maskedPan: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 extension CoreGraphics.CGColor {
   @nonobjc public class var gradientWhite: [CoreGraphics.CGColor] {
     get
   }
 }
-public class GACSDKApp {
+public class GACSDKAPP {
   public init()
   public static func initialize(with config: GACSDK.GACSDKConfiguration)
-  public func registerWallet(completion: @escaping (Swift.String) -> Swift.Void)
-  public func registerLiveness(customerImageBase64: Swift.String, completion: @escaping (Swift.String) -> Swift.Void)
+  public func registerWallet(completion: @escaping (GACSDK.RegistrationResult) -> Swift.Void)
+  public func registerLiveness(customerImageBase64: Swift.String, completion: @escaping (GACSDK.RegistrationResult) -> Swift.Void)
   public static func getConfiguration() -> GACSDK.GACSDKConfiguration?
   @objc deinit
 }

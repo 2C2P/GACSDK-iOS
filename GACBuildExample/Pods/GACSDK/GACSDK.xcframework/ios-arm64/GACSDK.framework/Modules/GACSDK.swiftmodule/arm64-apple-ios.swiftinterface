@@ -1,0 +1,81 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GACSDK
+import AVFoundation
+import Alamofire
+import Combine
+import CryptoSwift
+import DeveloperToolsSupport
+import Foundation
+@_exported import GACSDK
+import MaterialComponents
+import MaterialComponents.MaterialTextControls_FilledTextAreas
+import MaterialComponents.MaterialTextControls_FilledTextFields
+import MaterialComponents.MaterialTextControls_OutlinedTextAreas
+import MaterialComponents.MaterialTextControls_OutlinedTextFields
+import OTPFieldView
+import ObjectivePGP
+import SVProgressHUD
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum Environment {
+  case sandbox
+  case production
+  public static func == (a: GACSDK.Environment, b: GACSDK.Environment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class GACSDKConfiguration {
+  public var environment: GACSDK.Environment
+  public var authorizationKey: Swift.String
+  public var gacAesKey: Swift.String
+  public var gacAesIV: Swift.String
+  public var gacPGPPassword: Swift.String
+  public var gacPGPPublicKey: Swift.String
+  public var gacPGPPrivateKey: Swift.String
+  public init(environment: GACSDK.Environment, authorizationKey: Swift.String, gacAesKey: Swift.String, gacAesIV: Swift.String, gacPGPPassword: Swift.String, gacPGPPublicKey: Swift.String, gacPGPPrivateKey: Swift.String)
+  public class Builder {
+    public init()
+    public func setEnvironment(_ env: GACSDK.Environment) -> GACSDK.GACSDKConfiguration.Builder
+    public func setAuthorizationKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setGacAesKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setGacAesIV(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setGacPGPPassword(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setGacPGPPublicKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setGacPGPPrivateKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func build() -> GACSDK.GACSDKConfiguration
+    @objc deinit
+  }
+  @objc deinit
+}
+@objc @_Concurrency.MainActor @preconcurrency open class DatePickerDialogCustom : UIKit.UIView {
+  public typealias DatePickerCallback = (Foundation.Date?) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency open var datePicker: UIKit.UIDatePicker!
+  @objc @_Concurrency.MainActor @preconcurrency public init(textColor: UIKit.UIColor = .black, buttonColor: UIKit.UIColor = .black, font: UIKit.UIFont = .boldSystemFont(ofSize: 15), showCancelButton: Swift.Bool = true)
+  @available(*, unavailable)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency open func show(_ title: Swift.String, doneButtonTitle: Swift.String = "Done", cancelButtonTitle: Swift.String = "Cancel", defaultDate: Foundation.Date = Date(), minimumDate: Foundation.Date? = nil, maximumDate: Foundation.Date? = nil, datePickerMode: UIKit.UIDatePicker.Mode = .dateAndTime, callback: @escaping GACSDK.DatePickerDialogCustom.DatePickerCallback)
+  @objc deinit
+}
+extension CoreGraphics.CGColor {
+  @nonobjc public class var gradientWhite: [CoreGraphics.CGColor] {
+    get
+  }
+}
+public class GACSDKApp {
+  public init()
+  public static func initialize(with config: GACSDK.GACSDKConfiguration)
+  public func registerWallet(completion: @escaping (Swift.String) -> Swift.Void)
+  public func registerLiveness(customerImageBase64: Swift.String, completion: @escaping (Swift.String) -> Swift.Void)
+  public static func getConfiguration() -> GACSDK.GACSDKConfiguration?
+  @objc deinit
+}
+extension GACSDK.Environment : Swift.Equatable {}
+extension GACSDK.Environment : Swift.Hashable {}
