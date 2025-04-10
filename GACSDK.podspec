@@ -1,7 +1,7 @@
 
   Pod::Spec.new do |spec|
   spec.name         = 'GACSDK'
-  spec.version      = '1.0.1'
+  spec.version      = '1.0.2'
   spec.summary      = 'A description of GACSDK.'
   spec.description  = 'The SDK build for easy to use from GAC 2c2p.'
   spec.homepage     = 'https://github.com/2C2P/GACSDK-iOS'

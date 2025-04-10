@@ -36,7 +36,7 @@ class ViewController: UIViewController {
                 case .success(let response):
                       print("Register Liveness Success : \(response)")
                 case .failure(let error):
-                      print("Register Fail : \(error)")
+                      print("Register Liveness Fail : \(error)")
                 default : break
                 
             }
