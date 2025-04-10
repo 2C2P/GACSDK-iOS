@@ -428,8 +428,8 @@
           },
           {
             "kind": "Var",
-            "name": "gacAesKey",
-            "printedName": "gacAesKey",
+            "name": "aesKey",
+            "printedName": "aesKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -439,8 +439,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6GACSDK19GACSDKConfigurationC9gacAesKeySSvp",
-            "mangledName": "$s6GACSDK19GACSDKConfigurationC9gacAesKeySSvp",
+            "usr": "s:6GACSDK19GACSDKConfigurationC6aesKeySSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC6aesKeySSvp",
             "moduleName": "GACSDK",
             "declAttributes": [
               "HasStorage",
@@ -461,8 +461,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC9gacAesKeySSvg",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC9gacAesKeySSvg",
+                "usr": "s:6GACSDK19GACSDKConfigurationC6aesKeySSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC6aesKeySSvg",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -485,8 +485,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC9gacAesKeySSvs",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC9gacAesKeySSvs",
+                "usr": "s:6GACSDK19GACSDKConfigurationC6aesKeySSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC6aesKeySSvs",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -503,8 +503,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC9gacAesKeySSvM",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC9gacAesKeySSvM",
+                "usr": "s:6GACSDK19GACSDKConfigurationC6aesKeySSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC6aesKeySSvM",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -513,8 +513,8 @@
           },
           {
             "kind": "Var",
-            "name": "gacAesIV",
-            "printedName": "gacAesIV",
+            "name": "aesIV",
+            "printedName": "aesIV",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -524,8 +524,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6GACSDK19GACSDKConfigurationC8gacAesIVSSvp",
-            "mangledName": "$s6GACSDK19GACSDKConfigurationC8gacAesIVSSvp",
+            "usr": "s:6GACSDK19GACSDKConfigurationC5aesIVSSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC5aesIVSSvp",
             "moduleName": "GACSDK",
             "declAttributes": [
               "HasStorage",
@@ -546,8 +546,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC8gacAesIVSSvg",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC8gacAesIVSSvg",
+                "usr": "s:6GACSDK19GACSDKConfigurationC5aesIVSSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC5aesIVSSvg",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -570,8 +570,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC8gacAesIVSSvs",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC8gacAesIVSSvs",
+                "usr": "s:6GACSDK19GACSDKConfigurationC5aesIVSSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC5aesIVSSvs",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -588,8 +588,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC8gacAesIVSSvM",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC8gacAesIVSSvM",
+                "usr": "s:6GACSDK19GACSDKConfigurationC5aesIVSSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC5aesIVSSvM",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -598,8 +598,8 @@
           },
           {
             "kind": "Var",
-            "name": "gacPGPPassword",
-            "printedName": "gacPGPPassword",
+            "name": "pgpPassword",
+            "printedName": "pgpPassword",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -609,8 +609,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvp",
-            "mangledName": "$s6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvp",
+            "usr": "s:6GACSDK19GACSDKConfigurationC11pgpPasswordSSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC11pgpPasswordSSvp",
             "moduleName": "GACSDK",
             "declAttributes": [
               "HasStorage",
@@ -631,8 +631,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvg",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvg",
+                "usr": "s:6GACSDK19GACSDKConfigurationC11pgpPasswordSSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC11pgpPasswordSSvg",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -655,8 +655,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvs",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvs",
+                "usr": "s:6GACSDK19GACSDKConfigurationC11pgpPasswordSSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC11pgpPasswordSSvs",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -673,8 +673,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvM",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC14gacPGPPasswordSSvM",
+                "usr": "s:6GACSDK19GACSDKConfigurationC11pgpPasswordSSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC11pgpPasswordSSvM",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -683,8 +683,8 @@
           },
           {
             "kind": "Var",
-            "name": "gacPGPPublicKey",
-            "printedName": "gacPGPPublicKey",
+            "name": "pgpPublicKey",
+            "printedName": "pgpPublicKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -694,8 +694,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvp",
-            "mangledName": "$s6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvp",
+            "usr": "s:6GACSDK19GACSDKConfigurationC12pgpPublicKeySSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC12pgpPublicKeySSvp",
             "moduleName": "GACSDK",
             "declAttributes": [
               "HasStorage",
@@ -716,8 +716,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvg",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvg",
+                "usr": "s:6GACSDK19GACSDKConfigurationC12pgpPublicKeySSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC12pgpPublicKeySSvg",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -740,8 +740,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvs",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvs",
+                "usr": "s:6GACSDK19GACSDKConfigurationC12pgpPublicKeySSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC12pgpPublicKeySSvs",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -758,8 +758,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvM",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC15gacPGPPublicKeySSvM",
+                "usr": "s:6GACSDK19GACSDKConfigurationC12pgpPublicKeySSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC12pgpPublicKeySSvM",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -768,8 +768,8 @@
           },
           {
             "kind": "Var",
-            "name": "gacPGPPrivateKey",
-            "printedName": "gacPGPPrivateKey",
+            "name": "pgpPrivateKey",
+            "printedName": "pgpPrivateKey",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -779,8 +779,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvp",
-            "mangledName": "$s6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvp",
+            "usr": "s:6GACSDK19GACSDKConfigurationC13pgpPrivateKeySSvp",
+            "mangledName": "$s6GACSDK19GACSDKConfigurationC13pgpPrivateKeySSvp",
             "moduleName": "GACSDK",
             "declAttributes": [
               "HasStorage",
@@ -801,8 +801,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvg",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvg",
+                "usr": "s:6GACSDK19GACSDKConfigurationC13pgpPrivateKeySSvg",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC13pgpPrivateKeySSvg",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -825,8 +825,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvs",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvs",
+                "usr": "s:6GACSDK19GACSDKConfigurationC13pgpPrivateKeySSvs",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC13pgpPrivateKeySSvs",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -843,8 +843,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvM",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC16gacPGPPrivateKeySSvM",
+                "usr": "s:6GACSDK19GACSDKConfigurationC13pgpPrivateKeySSvM",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC13pgpPrivateKeySSvM",
                 "moduleName": "GACSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -996,8 +996,8 @@
               },
               {
                 "kind": "Function",
-                "name": "setGacAesKey",
-                "printedName": "setGacAesKey(_:)",
+                "name": "setAesKey",
+                "printedName": "setAesKey(_:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1013,8 +1013,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC12setGacAesKeyyAESSF",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC12setGacAesKeyyAESSF",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC9setAesKeyyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC9setAesKeyyAESSF",
                 "moduleName": "GACSDK",
                 "declAttributes": [
                   "AccessControl"
@@ -1023,8 +1023,8 @@
               },
               {
                 "kind": "Function",
-                "name": "setGacAesIV",
-                "printedName": "setGacAesIV(_:)",
+                "name": "setAesIV",
+                "printedName": "setAesIV(_:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1040,8 +1040,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC11setGacAesIVyAESSF",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC11setGacAesIVyAESSF",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC8setAesIVyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC8setAesIVyAESSF",
                 "moduleName": "GACSDK",
                 "declAttributes": [
                   "AccessControl"
@@ -1050,8 +1050,8 @@
               },
               {
                 "kind": "Function",
-                "name": "setGacPGPPassword",
-                "printedName": "setGacPGPPassword(_:)",
+                "name": "setPGPPassword",
+                "printedName": "setPGPPassword(_:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1067,8 +1067,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC17setGacPGPPasswordyAESSF",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC17setGacPGPPasswordyAESSF",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC14setPGPPasswordyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC14setPGPPasswordyAESSF",
                 "moduleName": "GACSDK",
                 "declAttributes": [
                   "AccessControl"
@@ -1077,8 +1077,8 @@
               },
               {
                 "kind": "Function",
-                "name": "setGacPGPPublicKey",
-                "printedName": "setGacPGPPublicKey(_:)",
+                "name": "setPGPPublicKey",
+                "printedName": "setPGPPublicKey(_:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1094,8 +1094,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC18setGacPGPPublicKeyyAESSF",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC18setGacPGPPublicKeyyAESSF",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC15setPGPPublicKeyyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC15setPGPPublicKeyyAESSF",
                 "moduleName": "GACSDK",
                 "declAttributes": [
                   "AccessControl"
@@ -1104,8 +1104,8 @@
               },
               {
                 "kind": "Function",
-                "name": "setGacPGPPrivateKey",
-                "printedName": "setGacPGPPrivateKey(_:)",
+                "name": "setPGPPrivateKey",
+                "printedName": "setPGPPrivateKey(_:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1121,8 +1121,8 @@
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC19setGacPGPPrivateKeyyAESSF",
-                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC19setGacPGPPrivateKeyyAESSF",
+                "usr": "s:6GACSDK19GACSDKConfigurationC7BuilderC16setPGPPrivateKeyyAESSF",
+                "mangledName": "$s6GACSDK19GACSDKConfigurationC7BuilderC16setPGPPrivateKeyyAESSF",
                 "moduleName": "GACSDK",
                 "declAttributes": [
                   "AccessControl"
@@ -5378,77 +5378,77 @@
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 448,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 488,
+      "offset": 482,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 531,
+      "offset": 522,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 575,
+      "offset": 563,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/Environment.swift",
       "kind": "StringLiteral",
-      "offset": 620,
+      "offset": 605,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1029,
+      "offset": 999,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1072,
+      "offset": 1039,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1114,
+      "offset": 1078,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1162,
+      "offset": 1123,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1211,
+      "offset": 1169,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Configuration\/GACSDKConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1261,
+      "offset": 1216,
       "length": 2,
       "value": "\"\""
     },
@@ -5756,7 +5756,7 @@
     {
       "filePath": "\/Users\/tanawat.art\/Desktop\/GACSDK_Release\/GACSDK\/Managers\/PGPManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3136,
+      "offset": 3127,
       "length": 4,
       "value": "true"
     },
