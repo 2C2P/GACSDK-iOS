@@ -35,21 +35,21 @@ public enum Environment {
 public class GACSDKConfiguration {
   public var environment: GACSDK.Environment
   public var authorizationKey: Swift.String
-  public var gacAesKey: Swift.String
-  public var gacAesIV: Swift.String
-  public var gacPGPPassword: Swift.String
-  public var gacPGPPublicKey: Swift.String
-  public var gacPGPPrivateKey: Swift.String
+  public var aesKey: Swift.String
+  public var aesIV: Swift.String
+  public var pgpPassword: Swift.String
+  public var pgpPublicKey: Swift.String
+  public var pgpPrivateKey: Swift.String
   public init(environment: GACSDK.Environment, authorizationKey: Swift.String, gacAesKey: Swift.String, gacAesIV: Swift.String, gacPGPPassword: Swift.String, gacPGPPublicKey: Swift.String, gacPGPPrivateKey: Swift.String)
   public class Builder {
     public init()
     public func setEnvironment(_ env: GACSDK.Environment) -> GACSDK.GACSDKConfiguration.Builder
     public func setAuthorizationKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
-    public func setGacAesKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
-    public func setGacAesIV(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
-    public func setGacPGPPassword(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
-    public func setGacPGPPublicKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
-    public func setGacPGPPrivateKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setAesKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setAesIV(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setPGPPassword(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setPGPPublicKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
+    public func setPGPPrivateKey(_ key: Swift.String) -> GACSDK.GACSDKConfiguration.Builder
     public func build() -> GACSDK.GACSDKConfiguration
     @objc deinit
   }

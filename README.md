@@ -41,7 +41,7 @@ pod install
 ```
 
 ## Usage
-specifies the minimum supported iOS version of 14.0 in your Podfile section. Let me know if you'd like to make any other changes!
+Specifies the minimum supported iOS version of 14.0 in your Podfile section.
 
 Ensure that GACSDK is added to your project If not, follow the installation instructions provided in the official documentation.
 
@@ -52,11 +52,11 @@ To configure and initialize the GACSDK, use the following code snippet:
 let config = GACSDKConfiguration.Builder()
     .setEnvironment("---Environment---")
     .setAuthorizationKey("---KEY_oauth---")
-    .setGacAesIV("---KEY_AesIV---")
-    .setGacAesKey("---KEY_AesKey---")
-    .setGacPGPPassword("---KEY_Password---")
-    .setGacPGPPublicKey("---KEY_PGPPublic---")
-    .setGacPGPPrivateKey("---KEY_PGPPrivate---")
+    .setAesIV("---KEY_AesIV---")
+    .setAesKey("---KEY_AesKey---")
+    .setPGPPassword("---KEY_Password---")
+    .setPGPPublicKey("---KEY_PGPPublic---")
+    .setPGPPrivateKey("---KEY_PGPPrivate---")
     .build()
 
 GACSDKAPP.initialize(with: config)
@@ -65,11 +65,11 @@ GACSDKAPP.initialize(with: config)
 
 setEnvironment("---Environment---"): Specifies the environment (e.g., sandbox or production).<br/>
 setAuthorizationKey("---KEY_oauth---"): Sets the authorization key for authentication.<br/>
-setGacAesIV("---KEY_AesIV---"): Sets the AES IV for encryption.<br/>
-setGacAesKey("---KEY_AesKey---"): Sets the AES key for encryption.<br/>
-setGacPGPPassword("---KEY_Password---"): Sets the PGP password for decryption.<br/>
-setGacPGPPublicKey("---KEY_PGPPublic---"): Sets the PGP public key for encryption.<br/>
-setGacPGPPrivateKey("---KEY_PGPPrivate---"): Sets the PGP private key for decryption.<br/>
+setAesIV("---KEY_AesIV---"): Sets the AES IV for encryption.<br/>
+setAesKey("---KEY_AesKey---"): Sets the AES key for encryption.<br/>
+setPGPPassword("---KEY_Password---"): Sets the PGP password for decryption.<br/>
+setPGPPublicKey("---KEY_PGPPublic---"): Sets the PGP public key for encryption.<br/>
+setPGPPrivateKey("---KEY_PGPPrivate---"): Sets the PGP private key for decryption.<br/>
 
 
 ## Registering a Wallet

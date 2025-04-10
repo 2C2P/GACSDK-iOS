@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		fxVYEfOcxrbq9pZpzHxaD7py8Lo=
+		DzXYc9UWuE7zJhZASUXPIQHAX44=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>GACSDK.podspec</key>
 		<data>
-		8ia3WSHC9heYO/MisBROrFwDxg8=
+		c/usLYb9tMcPOaiDEOPOXmI/hQU=
 		</data>
 		<key>Headers/GACSDK.h</key>
 		<data>
@@ -110,19 +110,19 @@
 		</data>
 		<key>Modules/GACSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		BfgfcKWKDOiRX3r3Rc1Tpb8esRY=
+		LxUd8zdrzfORwaSVHORL9Uko08c=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		x5FRufcvrxyczc+mERk9pAFI2Iw=
+		4zmijK8n8GgypRbnL//Zlf1cEOI=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tweEqOFRp17CIJs+jZ+XPjKtZRo=
+		sZ3gnomJ+VmvKeZ492bs6970C80=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hPZLQymIzJpp/gk0TYe9+phFXhI=
+		lU37iD9r2s4aoyUbyvZW3FNhiu8=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -130,19 +130,19 @@
 		</data>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hPZLQymIzJpp/gk0TYe9+phFXhI=
+		lU37iD9r2s4aoyUbyvZW3FNhiu8=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eiB3sF/bFCtANrOcPF8HpAjfFtw=
+		0g4NLk1ZuMCzP0cLkDG+HWlQSRo=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tweEqOFRp17CIJs+jZ+XPjKtZRo=
+		sZ3gnomJ+VmvKeZ492bs6970C80=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		fhVMjYtX7S/6CbV2zcNaFQSf8+Q=
+		qirb3ySHPwMwGRMJvN7UEF2CXO4=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -150,11 +150,11 @@
 		</data>
 		<key>Modules/GACSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fhVMjYtX7S/6CbV2zcNaFQSf8+Q=
+		qirb3ySHPwMwGRMJvN7UEF2CXO4=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QtKLcZ8qCxu6znGERH5umJX/Nho=
+		nMUcUaMBTNfIqUdeDrFTfyDAiXU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -300,7 +300,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pNYbhOp5uBuPFz/35xXlmLopWtCjTkK0Hyg7TH+Z04M=
+			r43ObWmuv4TOzUcDUyjRhmWMhtX+zeLz94wky5Og3zs=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -370,7 +370,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kXjX2BRN5DG4LIByFNQIeett1UWrgyzZPRaA6lzGF9s=
+			qG0lnZYn5TZzdMYvtdVQxfdKdBPxNe7HiipFTtTjOFo=
 			</data>
 		</dict>
 		<key>Headers/GACSDK.h</key>
@@ -454,28 +454,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i0uEqSVgEwbruxQmLONBuRuphX1cOUGStBa6GOzRzgc=
+			6fdp2cqX0TsHy/mtcNjyfQVLK7y+YauSNZzrNms5zxo=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PvDZAoIb5BJBnimAgFy/Chr1yB9GAhYt8viCY/yDYSw=
+			hkbNmcuo7N8+bCatrU8Cfotbw2JGflQyokYvSGXJzyo=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hso4iloWKBX1RhurVTffnTOOvXw2yXsuj20yXcjhPno=
+			rNid+uVegn8+nTlvqIpG80kiSa56wHXkERr1qwtf9GY=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BSTmxU3dEgjj1NIeBR1G/hNCXm3O+SHdAHt2sJePCH8=
+			UZ4+Leaxx518bQ52HeU9fXkt5RZZguSBKc2ZW9lIIN4=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -489,28 +489,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BSTmxU3dEgjj1NIeBR1G/hNCXm3O+SHdAHt2sJePCH8=
+			UZ4+Leaxx518bQ52HeU9fXkt5RZZguSBKc2ZW9lIIN4=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v6JeoO6AcG7E+WwhnVA7xRq45b9vmLYXd3qSJRxh4L8=
+			f4zciRyhxckguwPahYV0m3t4aenMFKNjZZUQmdeuOeM=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hso4iloWKBX1RhurVTffnTOOvXw2yXsuj20yXcjhPno=
+			rNid+uVegn8+nTlvqIpG80kiSa56wHXkERr1qwtf9GY=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5mXJgs9sJzf4VhRihbLW43oNFs0NcWpZfrf7ktaH2So=
+			rwijv1Sd/IozSXkpKgzRWF86JcmuAUwYqdBmlOCSY64=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -524,14 +524,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5mXJgs9sJzf4VhRihbLW43oNFs0NcWpZfrf7ktaH2So=
+			rwijv1Sd/IozSXkpKgzRWF86JcmuAUwYqdBmlOCSY64=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ktplOgdBkFcvpLE8o58vfQvIsSvG15yZISdF/pqV9J8=
+			UqpSMb1gjpuUSip20OtJYAyXQbbFT3nTYn8/cnEoQY4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
