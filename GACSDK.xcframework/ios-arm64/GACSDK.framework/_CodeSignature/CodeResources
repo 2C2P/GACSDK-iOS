@@ -58,7 +58,7 @@
 		</data>
 		<key>GACSDK.podspec</key>
 		<data>
-		c/usLYb9tMcPOaiDEOPOXmI/hQU=
+		HsmwGpeuOqwFAL3NzwaKPIIuiIg=
 		</data>
 		<key>Headers/GACSDK.h</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/GACSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		K5QwMt462l9Xho62uS3QTDW93z8=
+		1gZGVbd5u5r0ACx9Bcbv/zhkmCs=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		iMZ8/vX1egfpsicukWDCAIlcNdg=
+		vHqvkNiBFSct4qW5bqOsY2Z+Gxg=
 		</data>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -346,7 +346,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qG0lnZYn5TZzdMYvtdVQxfdKdBPxNe7HiipFTtTjOFo=
+			uYCjUERxpI7Xg2r9My8CdB/JaIQnpSocMafD4m2TMqQ=
 			</data>
 		</dict>
 		<key>Headers/GACSDK.h</key>
@@ -430,14 +430,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JWM9XN+H4ZD3s7XBNeDuDtDOjruIhPeO+bfDnSFUqo8=
+			G2BKMX0Lw3nXqmf75GBKWwJCqiO0YAmZ/VTmn8G5toI=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ERayQuOwualwHCIDNBr3dgT173CTq5cqAHu2G53yxtk=
+			cAFj8CNy87JcQEgDQVeYzo59cRC/woNizmgRbRpRS+Y=
 			</data>
 		</dict>
 		<key>Modules/GACSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
