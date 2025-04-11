@@ -4950,10 +4950,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "GACSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "GACSDK"
       },
       {
         "kind": "Import",
